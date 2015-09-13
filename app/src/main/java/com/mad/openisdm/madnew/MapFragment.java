@@ -184,7 +184,7 @@ public class MapFragment extends Fragment implements MapEventsReceiver,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_map, container, false);
 
-        // The find currnet location button
+        // The find current location button
         ImageButton findLocation = (ImageButton)root.findViewById(R.id.fab_image_button);
         findLocation.setOnClickListener(new View.OnClickListener() {
             @Override
